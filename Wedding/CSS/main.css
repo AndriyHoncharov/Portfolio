@@ -1,0 +1,363 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/Gilroy-Light.woff') format(woff);
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Gilroy-Regular.woff') format(woff);
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Gilroy-Bold.woff') format(woff);
+}
+body {
+  font-family: "Gilroy", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.main-heding {
+  font-size: 56px;
+  line-height: 68px;
+}
+.main-butn {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  color: #f7941e;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+}
+.main-butn:hover {
+  color:#fff;
+  text-decoration:underline;
+  background: #f7941e;
+}
+.main-butn:active {
+  background: #d98a09;
+}
+.hero-btn {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  color:#fff;
+  text-transform: uppercase;
+  background: #f7941e;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.hero-btn:hover {
+  color: #f7941e;
+  text-decoration:underline;
+  background: none;
+}
+.hero-btn:active {
+  color: #d98a09;
+  border: 1px solid#d98a09;
+}
+.more-btn{
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  color:#000;
+  background: none;
+  box-sizing: border-box;
+  border: none;
+}
+.more-btn_alt{
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  color:#fff;
+  background: none;
+  box-sizing: border-box;
+  border: none;
+}
+.sign-btn{
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  color:#fff;
+  text-transform: uppercase;
+  background: #000;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.sign-btn_alt{
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  color:#000;
+  text-transform: uppercase;
+  background: none;
+  box-sizing: border-box;
+  border: 1px solid #000;
+} 
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+}
+@media(min-width:576px) {
+  .container {
+    min-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media(min-width:768px) {
+  .container {
+    min-width: 720px;
+  }
+}
+@media(min-width:992x) {
+  .container {
+    min-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .container {
+    min-width: 1140px;
+  }
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-88{
+  margin-bottom: 88px;
+}
+.main-header__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.main-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+@media (min-width:320px) {
+  .main-nav__link {
+    padding: 8px;
+  }
+  .hero-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main-heding {
+    font-size: 32px;
+  }
+}
+@media (min-width:576px){
+  .main-header__flex{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-nav__list {
+    display: flex;
+  }
+  .main-nav__link {
+    padding: 32px;
+  }
+  .hero-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main-heding {
+    font-size: 32px;
+  }
+}
+.logo {
+  color: #231F20;
+}
+.main-nav {
+  text-align: center;
+}
+.main-nav__link {
+  display: inline-block; 
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+}
+.hero-section {
+  background: #F1F1F2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-heding {
+  font-size: 48px;
+}
+.hero-desc {
+  font-size: 20px;
+  line-height: 28px;
+}
+.img-1 {
+  height: 555px;
+  width: 570px;
+}
+@media (min-width: 768px) {
+  .hero-row {
+    display: flex;  
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .hero-col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.gifts-text__row {
+  text-align: center;
+  padding-top: 96px;
+}
+.gifts-heading {
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 24px;
+}
+.gifts-text {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 64px;
+}
+.gifts-card__row {
+  display: flex;
+  justify-content: space-between;
+}
+.gift-card {
+  display: flex;
+  align-items:flex-start;
+  flex-flow: column wrap;
+  background: #fafafa;
+}
+.gift-card:hover {
+  display: flex;
+  align-items:flex-start;
+  flex-flow: column wrap;
+  background: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-text {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 74px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.sing-section {
+  margin-top: 138px;
+  margin-bottom: 88px;
+  background: #f7941e;
+  padding: 80px 235px 70px 235px;
+}
+.sign-row {
+  display: flex;
+  align-items: center;
+}
+.sign-col {
+  padding-left: 230px;
+}
+.sign-heding {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: bold;
+}
+.sign-desc {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: normal;
+}
+.blog-section{
+  margin-bottom: 80px;
+}
+.blog-text {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.blog-heading {
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 24px;
+}
+.plain-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+.blog-row {
+  display: flex;
+  align-items: center;
+}
+.blog-row_alt {
+  display: flex;
+  align-items: center;
+  background: #000;
+}
+.blog-col_card {
+  padding-left: 100px;
+}
+.main-heding_alt {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 28px;
+}
+.blog-desc_alt {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 60px;
+}
+.blog-card {
+  padding: 48px;
+}
+.blog-card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.blog-heding {
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 16px;
+}
+.blog-desc {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 16px;
+}
+.footer-section {
+  padding-top: 115px;
+  padding-bottom: 35px;
+  background: #fafafa;
+}
